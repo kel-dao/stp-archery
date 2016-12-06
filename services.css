@@ -1,0 +1,123 @@
+body {
+  background-color: #FFFFFF;
+  background-image: url();
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #000000;
+  display: block;
+}
+
+header {
+  background-color: #FFFFFF;
+  color: #584036;
+  width: 100%;
+  top: 0;
+  left: -0.2rem;
+  margin: 0;
+  padding: 0.5rem;
+  height: 8rem;
+  position: fixed;
+  z-index: 999;
+}
+
+header .img {
+  width: 200px;
+}
+
+/* border inputted in "p selector" will affect table/box effects */
+p {
+  font-family: 'Quicksand', serif;
+  font-size: 20px;
+  padding: 1em;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: 1.5s ease;
+}
+
+a:hover {
+  color: #FFFFFF;
+  background-color: #030128;
+}
+
+a:visited {
+  color: #FFFFFF;
+  text-decoration: line-through;
+  background-color: #B4D2F0;
+}
+
+p::first-letter {
+  font-size: 36px;
+}
+
+h1 {
+  font-family: 'Vast Shadow', cursive;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  font-size: 48px;
+  color: #000000;
+  text-align: left;
+  z-index: 999;
+}
+
+h4 {
+  font-family: 'Quicksand', serif;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #584036;
+  text-align: left;
+  position: fixed;
+  top: 4rem;
+  width: 100%;
+  z-index: 999;
+}
+
+nav {
+  font-family: 'Quicksand', serif;
+  background-color: #84D443;
+  align-content: center;
+  text-align: center;
+  height: 2rem;
+  top: 9rem;
+  left: -0.2rem;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  color: #FFFFFF;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+}
+
+nav .ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Quicksand', serif;
+}
+
+h5 {
+  text-align: center;
+  color: #FFFFFF;
+  font-variant: small-caps;
+  font-family: 'Quicksand', serif;
+}
+
+
+/* clear:both keeps footer from nesting in between articles */
+footer {
+  clear: both;
+  width: 100%;
+  bottom: -2rem;
+  background-color: #FFFFFF;
+  color: #584036;
+  z-index: 999;
+  font-family: 'Quicksand', serif;
+}
