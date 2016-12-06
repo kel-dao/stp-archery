@@ -1,5 +1,5 @@
 body {
-  background-color: #FFFFFF;
+  background-color: #8D7D76;
   background-image: url();
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -18,17 +18,6 @@ header {
   height: 8rem;
   position: fixed;
   z-index: 999;
-}
-
-header .img {
-  width: 200px;
-}
-
-/* border inputted in "p selector" will affect table/box effects */
-p {
-  font-family: 'Quicksand', serif;
-  font-size: 20px;
-  padding: 1em;
 }
 
 a {
@@ -62,7 +51,7 @@ h1 {
   z-index: 999;
 }
 
-h4 {
+header h4 {
   font-family: 'Quicksand', serif;
   font-variant: small-caps;
   text-transform: capitalize;
@@ -91,12 +80,6 @@ nav {
   padding-top: 0.5rem;
 }
 
-nav .ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
 h3 {
   text-align: center;
   font-size: 1.5rem;
@@ -120,4 +103,14 @@ footer {
   color: #584036;
   z-index: 999;
   font-family: 'Quicksand', serif;
+  font-size: 12px;
+}
+
+footer .p {
+   font-family: 'Quicksand', serif;
+   font-size: 12px;
+}
+
+footer .col_span_3_of_3 {
+  color: #84d443;
 }
