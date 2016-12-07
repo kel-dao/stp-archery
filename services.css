@@ -103,10 +103,10 @@ h3 {
 
 h5 {
   text-align: center;
-  color: #FFFFFF;
+  color: #000000;
   font-variant: small-caps;
   font-family: 'Quicksand', serif;
-  font-size: 20px;
+  font-size: 28px;
 }
 
 h6 {
@@ -128,8 +128,7 @@ h6 {
 p {
   font-weight: bold;
   font-size: 16px;
-  text-align: center;
-  background-color: 
+  text-align: center; 
   background-color: #D1ECB9;
   padding: 0.5rem;
 }
