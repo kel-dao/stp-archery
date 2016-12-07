@@ -27,14 +27,8 @@ a {
 }
 
 a:hover {
-  color: #FFFFFF;
-  background-color: #030128;
-}
-
-a:visited {
-  color: #FFFFFF;
-  text-decoration: line-through;
-  background-color: #B4D2F0;
+  color: #584036;
+  background-color: #D1ECB9;
 }
 
 .header-text {
@@ -87,7 +81,18 @@ nav {
 
 main {
   padding-top: 5rem;
-  margin-top: 8rem;
+  margin-top: 10rem;
+}
+
+h2 {
+  font-family: 'Vast Shadow', cursive;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  font-size: 48px;
+  color: #000000;
+  text-align: center;
+  margin: -1rem;
+  padding: 2rem;
 }
 
 h3 {
@@ -102,6 +107,15 @@ h5 {
   font-variant: small-caps;
   font-family: 'Quicksand', serif;
   font-size: 20px;
+}
+
+h6 {
+  text-align: center;
+  color: #000000;
+  font-variant: small-caps;
+  font-family: 'Vast Shadow', cursive;
+  font-size: 26px; 
+  padding: 0rem;
 }
 
 .classes {
@@ -128,19 +142,26 @@ footer {
   color: #584036;
   z-index: 999;
   font-family: 'Quicksand', serif;
-  font-size: 12px;
+  font-size: 11px;
+  text-align: center;
 }
 
-p .footer {
-   font-family: 'Quicksand', serif;
-   font-size: 12px;
+footer h4 {
+  font-family: 'Quicksand', serif;
+  font-size: 18px;
+  color: #584036;
+  align-items: center;
+}
+
+footer a {
+  color: #84D443;
+  padding: 1rem;
 }
 
 .main-img {
   width: 100%;
   align-content: center;
   top: 6rem;
-  padding-left: 4rem;
   clip: rect(150px, 0px, 150px, 0px);
 }
 
@@ -149,13 +170,54 @@ main {
    font-size: 12px;
 }
 
-.span_4_of_12 {
-  vertical-align: middle;
-  align-content: center;
-  justify-content: space-around;
-  
-}
-
 .span_12_of_12 {
   clear: both;
+  text-align: center;
+}
+
+.span_4_of_12 {
+  text-align: center;
+  background-color: #FFFFFF;
+  padding-top: 2rem;
+  margin: 1rem;
+}
+
+p .span_4_of_12 {
+  font-size: 12px;
+}
+
+.jump {
+    background-color: #64D443;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Quicksand', serif;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.jump {
+    background-color: #64D443; 
+    color: #FFFFFF; 
+    border: 2px solid #64D443;
+    justify-content: center;
+}
+
+.jump:hover {
+    background-color: #D1ECB9;
+    border: 2px solid #D1ECB9;
+    color: #584036;
+}
+
+.affiliates {
+  width: 150px;
+  align-items: center;
+  padding: 1rem;
+  margin: 0.5rem;
 }
