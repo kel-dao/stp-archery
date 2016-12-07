@@ -14,8 +14,8 @@ header {
   top: 0;
   left: -0.2rem;
   margin: 0;
-  padding: 0.5rem;
-  height: 7rem;
+  padding: 0rem;
+  height: 9rem;
   position: fixed;
   z-index: 999;
 }
@@ -37,27 +37,36 @@ a:visited {
   background-color: #B4D2F0;
 }
 
-h1 {
+.header-text {
+  display: inline-block;
   font-family: 'Vast Shadow', cursive;
   font-variant: small-caps;
   text-transform: capitalize;
-  font-size: 48px;
+  font-size: 50px;
   color: #000000;
-  text-align: left;
   z-index: 999;
+  padding-top: -4rem;
+  padding-right: 20rem;
 }
+
 
 header h4 {
   font-family: 'Quicksand', serif;
   font-variant: small-caps;
   text-transform: capitalize;
-  font-size: 14px;
+  font-size: 18px;
   color: #584036;
   text-align: left;
   position: fixed;
-  top: 2rem;
+  top: 0;
   width: 100%;
   z-index: 999;
+}
+
+.logo {
+  width: 65%;
+  padding-left: 3rem;
+  
 }
 
 nav {
@@ -66,7 +75,7 @@ nav {
   align-content: center;
   text-align: center;
   height: 2rem;
-  top: 7rem;
+  top: 9rem;
   left: -0.2rem;
   position: fixed;
   width: 100%;
@@ -78,6 +87,7 @@ nav {
 
 main {
   padding-top: 5rem;
+  margin-top: 8rem;
 }
 
 h3 {
@@ -91,8 +101,23 @@ h5 {
   color: #FFFFFF;
   font-variant: small-caps;
   font-family: 'Quicksand', serif;
+  font-size: 20px;
 }
 
+.classes {
+  font-family: 'Quicksand', serif;
+  list-style-type: none;
+  padding: 1rem;
+  font-size: 16px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  background-color: 
+  background-color: #D1ECB9;
+}
 
 /* clear:both keeps footer from nesting in between articles */
 footer {
@@ -106,15 +131,31 @@ footer {
   font-size: 12px;
 }
 
-footer .p {
+p .footer {
    font-family: 'Quicksand', serif;
    font-size: 12px;
 }
 
-footer .col_span_3_of_3 {
-  color: #84d443;
+.main-img {
+  width: 100%;
+  align-content: center;
+  top: 6rem;
+  padding-left: 4rem;
+  clip: rect(150px, 0px, 150px, 0px);
 }
 
-footer .group {
-  background-color: #FFFFFF;
+main {
+   font-family: 'Quicksand', serif;
+   font-size: 12px;
+}
+
+.span_4_of_12 {
+  vertical-align: middle;
+  align-content: center;
+  justify-content: space-around;
+  
+}
+
+.span_12_of_12 {
+  clear: both;
 }
