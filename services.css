@@ -125,14 +125,6 @@ h6 {
   font-size: 16px;
 }
 
-p {
-  font-weight: bold;
-  font-size: 16px;
-  text-align: center; 
-  background-color: #D1ECB9;
-  padding: 0.5rem;
-}
-
 /* clear:both keeps footer from nesting in between articles */
 footer {
   clear: both;
@@ -171,7 +163,6 @@ main {
 }
 
 .span_12_of_12 {
-  clear: both;
   text-align: center;
 }
 
@@ -180,10 +171,6 @@ main {
   background-color: #FFFFFF;
   padding-top: 2rem;
   margin: 1rem;
-}
-
-p .span_4_of_12 {
-  font-size: 12px;
 }
 
 .jump {
