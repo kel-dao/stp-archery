@@ -15,7 +15,7 @@ header {
   left: -0.2rem;
   margin: 0;
   padding: 0.5rem;
-  height: 8rem;
+  height: 7rem;
   position: fixed;
   z-index: 999;
 }
@@ -37,10 +37,6 @@ a:visited {
   background-color: #B4D2F0;
 }
 
-p::first-letter {
-  font-size: 36px;
-}
-
 h1 {
   font-family: 'Vast Shadow', cursive;
   font-variant: small-caps;
@@ -59,7 +55,7 @@ header h4 {
   color: #584036;
   text-align: left;
   position: fixed;
-  top: 4rem;
+  top: 2rem;
   width: 100%;
   z-index: 999;
 }
@@ -70,7 +66,7 @@ nav {
   align-content: center;
   text-align: center;
   height: 2rem;
-  top: 9rem;
+  top: 7rem;
   left: -0.2rem;
   position: fixed;
   width: 100%;
@@ -78,6 +74,10 @@ nav {
   color: #FFFFFF;
   font-size: 1rem;
   padding-top: 0.5rem;
+}
+
+main {
+  padding-top: 5rem;
 }
 
 h3 {
@@ -113,4 +113,8 @@ footer .p {
 
 footer .col_span_3_of_3 {
   color: #84d443;
+}
+
+footer .group {
+  background-color: #FFFFFF;
 }
